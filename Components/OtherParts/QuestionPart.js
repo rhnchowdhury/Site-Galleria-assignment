@@ -8,13 +8,13 @@ import { BsFillCaretDownFill } from "react-icons/bs";
 
 const QuestionPart = () => {
     return (
-        <div className="mt-5">
+        <div className="mt-5 m-2 shadow-2xl">
             <div className="flex justify-between bg-sky-600">
-                <h1 className="text-white">Q No: 1</h1>
-                <h1 className="text-white">View in: <span className="badge bg-white text-black">English<BsFillCaretDownFill></BsFillCaretDownFill></span> </h1>
+                <h1 className="text-white ml-1">Q No: 1</h1>
+                <h1 className="text-white mr-1">View in: <span className="badge bg-white text-black">English<BsFillCaretDownFill></BsFillCaretDownFill></span> </h1>
             </div>
-            <div className="flex mt-2 gap-10">
-                <div>
+            <div className="flex mt-2 gap-10 ">
+                <div className="w-full m-1">
                     <h1 className="text-sky-600 uppercase font-medium">Question Instruction</h1>
                     <p>Passage You want to hit a small box on the floor with a
                         marble fired from a spring-loaded gun that is mounted
@@ -25,7 +25,7 @@ const QuestionPart = () => {
                         box. How far should you compress the spring to score a
                         direct hit (neglect friction)?</p>
                 </div>
-                <div>
+                <div className="w-full m-1">
                     <h1 className="text-sky-600 uppercase font-medium">Question</h1>
                     <p>A block of mass m is projected with velocity Vo as shown
                         in the fig. The distance between free ends is l0.
