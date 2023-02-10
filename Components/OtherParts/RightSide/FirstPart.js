@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-const ImgPart = () => {
+const FirstPart = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 bg-sky-500'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 bg-sky-200 rounded-md py-2'>
             <div className=''>
                 {selectedImage && (
                     <div className='m-1'>
@@ -28,4 +28,4 @@ const ImgPart = () => {
     );
 };
 
-export default ImgPart;
+export default FirstPart;

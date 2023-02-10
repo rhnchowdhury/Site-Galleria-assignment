@@ -8,8 +8,8 @@ import { BsFillCaretDownFill } from "react-icons/bs";
 
 const QuestionPart = () => {
     return (
-        <div className="mt-5 m-2 shadow-2xl">
-            <div className="flex justify-between bg-sky-600">
+        <div className="mt-5 m-2 shadow-2xl rounded-md">
+            <div className="flex justify-between bg-sky-600 rounded-md">
                 <h1 className="text-white ml-1">Q No: 1</h1>
                 <h1 className="text-white mr-1">View in: <span className="badge bg-white text-black">English<BsFillCaretDownFill></BsFillCaretDownFill></span> </h1>
             </div>
