@@ -1,4 +1,11 @@
-import { BsFillCaretDownFill, IconName } from "react-icons/bs";
+import Image from "next/image";
+import img1 from '../assets/img1.PNG';
+import img2 from '../assets/img2.PNG';
+import img3 from '../assets/img3.PNG';
+import img4 from '../assets/img4.PNG';
+import img5 from '../assets/img5.PNG';
+import { BsFillCaretDownFill } from "react-icons/bs";
+
 const QuestionPart = () => {
     return (
         <div className="mt-5">
@@ -6,7 +13,7 @@ const QuestionPart = () => {
                 <h1 className="text-white">Q No: 1</h1>
                 <h1 className="text-white">View in: <span className="badge bg-white text-black">English<BsFillCaretDownFill></BsFillCaretDownFill></span> </h1>
             </div>
-            <div className="flex mt-2">
+            <div className="flex mt-2 gap-10">
                 <div>
                     <h1 className="text-sky-600 uppercase font-medium">Question Instruction</h1>
                     <p>Passage You want to hit a small box on the floor with a
@@ -23,6 +30,23 @@ const QuestionPart = () => {
                     <p>A block of mass m is projected with velocity Vo as shown
                         in the fig. The distance between free ends is l0.
                         Maximum displacement of the block during the motion.</p>
+                    <Image src={img1} alt=''></Image>
+                    <div className="flex">
+                        <input type="checkbox" className="checkbox mt-5" />
+                        <Image src={img2} alt='' className="ml-2"></Image>
+                    </div>
+                    <div className="flex">
+                        <input type="checkbox" className="checkbox mt-6" />
+                        <Image src={img3} alt='' className="ml-2"></Image>
+                    </div>
+                    <div className="flex">
+                        <input type="checkbox" className="checkbox mt-5" />
+                        <Image src={img4} alt='' className="ml-2"></Image>
+                    </div>
+                    <div className="flex">
+                        <input type="checkbox" className="checkbox mt-5" />
+                        <Image src={img5} alt='' className="ml-2"></Image>
+                    </div>
                 </div>
             </div>
         </div>
