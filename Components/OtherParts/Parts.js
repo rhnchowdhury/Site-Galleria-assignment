@@ -7,7 +7,7 @@ import ThirdPart from "./RightSide/ThirdPart";
 
 const Parts = () => {
     return (
-        <div className="flex m-2">
+        <div className="flex flex-col lg:flex-row m-2">
             <div className="bg-white w-full h-full rounded-md">
                 <List></List>
                 <QuestionPart></QuestionPart>

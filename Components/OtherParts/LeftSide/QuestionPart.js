@@ -13,7 +13,7 @@ const QuestionPart = () => {
                 <h1 className="text-white ml-1">Q No: 1</h1>
                 <h1 className="text-white mr-1">View in: <span className="badge bg-white text-black">English<BsFillCaretDownFill></BsFillCaretDownFill></span> </h1>
             </div>
-            <div className="flex mt-2 gap-10 ">
+            <div className="flex flex-col lg:flex-row mt-2 gap-10">
                 <div className="w-full m-1">
                     <h1 className="text-sky-600 uppercase font-medium">Question Instruction</h1>
                     <p>Passage You want to hit a small box on the floor with a
