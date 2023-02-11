@@ -1,14 +1,7 @@
 const NavBar = () => {
     return (
         <div>
-            {/* <div className="navbar ">
-                <div className="">
-                </div>
-                <div className="navbar-center">
-                    
-                </div>
-            </div> */}
-            <div className="navbar bg-sky-600">
+            <div className="py-4 bg-sky-600 text-center">
                 <a className="text-white font-semibold text-xl uppercase">Demo Online Test</a>
             </div>
         </div>
