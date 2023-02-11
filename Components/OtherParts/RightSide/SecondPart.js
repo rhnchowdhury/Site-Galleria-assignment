@@ -1,6 +1,6 @@
 const SecondPart = () => {
     return (
-        <div className="bg-sky-200 h-64 rounded-md mt-5">
+        <div className="bg-sky-200 h-52 rounded-md mt-5">
             <h1 className=" bg-sky-500 rounded-md text-white font-medium">Question Pallete</h1>
             <div className="mt-1">
                 <button className="bg-green-600 px-3">1</button>
